@@ -284,7 +284,7 @@ article ul li {
   padding: 0 0 0 1em;
 }
 article ul li:before {
-  background: #00283a none repeat scroll 0 0;
+  background: rgba(35, 36, 57, 1) none repeat scroll 0 0;
   color: #fff;
   content: "\f006";
   display: inline-block;
@@ -351,13 +351,13 @@ h2.section-title {
 }
 .our-work-text {
   background: #00283a none repeat scroll 0 0;
-    display: block;
+  display: block;
   left: 0;
   opacity: 0;
   padding: 1.25em;
   position: absolute;
   right: 0;
-  bottom:  63px;
+  bottom: 63px;
   text-align: center;
   transition: opacity 0.2s linear 0s;
   -o-transition: opacityd 0.2s linear 0s;
@@ -382,14 +382,14 @@ h2.section-title {
 .tab-nav {
   display: table;
 }
-.services-name{
- display:flex;
-flex-direction: column
+.services-name {
+  display: flex;
+  flex-direction: column;
 }
-.serNames{
+.serNames {
   margin-top: 1em;
 }
-.namesOfservices{
+.namesOfservices {
   background: none repeat scroll rgb(67, 69, 112);
   background: radial-gradient(
     circle,
@@ -406,7 +406,6 @@ flex-direction: column
   -ms-transition: all 0.2s linear 0s;
   -moz-transition: all 0.2s linear 0s;
   -webkit-transition: all 0.2s linear 0s;
-
 }
 a.tab-label,
 a.tab-label:link,
@@ -542,6 +541,13 @@ footer a:hover {
   font-size: 0.8em;
 }
 @media screen and (max-width: 768px) {
+  article h2 {
+    font-size: 3em;
+    font-weight: 900;
+
+    line-height: 1.2;
+    margin: 0 0 0.625em 0;
+  }
   header {
     position: relative;
   }
@@ -566,6 +572,12 @@ footer a:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  .headerTitle {
+    font-size: 2em;
+    font-weight: 900;
+
+    margin: 0 0 0.625em 0;
+  }
   #topbar {
     line-height: 1.625em;
     text-align: center;
@@ -579,6 +591,13 @@ footer a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  article h2 {
+    font-size: 2em;
+    font-weight: 900;
+
+    line-height: 1.2;
+    margin: 0 0 0.625em 0;
+  }
   .background-image {
     background-position: center;
   }
@@ -588,7 +607,6 @@ footer a:hover {
     font-size: 1em;
   }
   p.logo {
-   
     height: 56px;
   }
 }
