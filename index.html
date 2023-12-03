@@ -1,363 +1,538 @@
 <!DOCTYPE html>
 <html lang="en-US">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Responsive One Page website template</title>
-      <link rel="stylesheet" href="css/components.css">
-      <link rel="stylesheet" href="css/responsee.css">
-      <link rel="stylesheet" href="css/icons.css">
-      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-      <!-- CUSTOM STYLE -->
-      <link rel="stylesheet" href="css/template-style.css">
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
-      <script type="text/javascript" src="js/template-scripts.js"></script> 
-   </head>
-   <body class="size-1140">
-  	  <!-- PREMIUM FEATURES BUTTON -->
-  	  <a target="_blank" class="hide-s" href="../template/onepage-premium-template/" style="position:fixed;top:130px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
-      <!-- TOP NAV WITH LOGO -->
-      <header>
-         <div id="topbar" class="hide-s hide-m">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatih Consultancy</title>
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsee.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/template-style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/script.js"></script>
+  </head>
+  <body class="size-1140">
+    <!-- TOP NAV WITH LOGO -->
+    <header>
+      <nav>
+        <div class="line">
+          <div class="m-12 l-2">
+            <p class="logo"><strong>Fatih</strong>Consultancy</p>
+          </div>
+          <div class="top-nav s-12 l-10">
+            <ul class="right">
+              <li class="active-item"><a href="#carousel">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#our-work">Services</a></li>
+              <li><a href="#services">What We Do</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <!-- CAROUSEL -->
+      <div id="carousel">
+        <div id="owl-demo" class="owl-carousel owl-theme">
+          <div class="items">
+            <img src="img/Turkey.jpg" alt="" />
             <div class="line">
-               <div class="m-6 l-6 hide-s">
-                  <p>CONTACT US: <strong>0800 200 200</strong> | <strong>contact@sampledomain.com</strong></p>
-               </div>
-               <div class="s-12 m-6 l-6">
-                  <div class="social right">
-                     <a><i class="icon-facebook_circle"></i></a> <a><i class="icon-twitter_circle"></i></a> <a><i class="icon-google_plus_circle"></i></a> <a><i class="icon-instagram_circle"></i></a>
+              <div class="text hide-s">
+                <div class="line">
+                  <div class="prev-arrow hide-s hide-m">
+                    <i class="icon-chevron_left"></i>
                   </div>
-               </div>
-            </div>  
-         </div> 
-         <nav>
-            <div class="line">
-               <div class="m-12 l-2">
-                  <p class="logo"><strong>One</strong>page</p>
-               </div>
-               <div class="top-nav s-12 l-10">
-                  
-                  <ul class="right">
-                     <li class="active-item"><a href="#carousel">Home</a></li>
-                     <li><a href="#features">Features</a></li>
-                     <li><a href="#about-us">About Us</a></li>
-                     <li><a href="#our-work">Our Work</a></li>
-                     <li><a href="#services">Services</a></li>
-                     <li><a href="#contact">Contact</a></li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </header>  
-      <section>
-         <!-- CAROUSEL --> 
-         <div id="carousel">
-            <div id="owl-demo" class="owl-carousel owl-theme"> 
-               <div class="item">
-                  <img src="img/first.jpg" alt="">
-                  <div class="line"> 
-                     <div class="text hide-s">
-                        <div class="line"> 
-                          <div class="prev-arrow hide-s hide-m">
-                             <i class="icon-chevron_left"></i>
-                          </div>
-                          <div class="next-arrow hide-s hide-m">
-                             <i class="icon-chevron_right"></i>
-                          </div>
-                        </div> 
-                        <h2>Free Onepage Responsive Template</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-                     </div>
+                  <div class="next-arrow hide-s hide-m">
+                    <i class="icon-chevron_right"></i>
                   </div>
-               </div>
-               <div class="item">
-                  <img src="img/second.jpg" alt="">
-                  <div class="line">
-                     <div class="text hide-s"> 
-                        <div class="line"> 
-                          <div class="prev-arrow hide-s hide-m">
-                             <i class="icon-chevron_left"></i>
-                          </div>
-                          <div class="next-arrow hide-s hide-m">
-                             <i class="icon-chevron_right"></i>
-                          </div>
-                        </div> 
-                        <h2>Fully Responsive Components</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="item">
-                  <img src="img/third.jpg" alt="">
-                  <div class="line">
-                     <div class="text hide-s">
-                        <div class="line"> 
-                          <div class="prev-arrow hide-s hide-m">
-                             <i class="icon-chevron_left"></i>
-                          </div>
-                          <div class="next-arrow hide-s hide-m">
-                             <i class="icon-chevron_right"></i>
-                          </div>
-                        </div> 
-                        <h2>Build new Layout in 10 minutes!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- FIRST BLOCK -->
-         <div id="first-block">
-            <div class="line">
-               <h1>Amazing Responsive Business Template</h1>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-               <div class="s-12 m-4 l-2 center"><a class="white-btn" href="#contact">Contact Us</a></div>
-            </div>
-         </div>
-         <!-- FEATURES -->
-         <div id="features">
-            <div class="line">
-               <div class="margin">
-                  <div class="s-12 m-6 l-3 margin-bottom">
-                     <i class="icon-tablet icon3x"></i>
-                     <h2>Fully responsive</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                  </div>
-                  <div class="s-12 m-6 l-3 margin-bottom">
-                     <i class="icon-isight icon3x"></i>
-                     <h2>Clean design</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat adipiscing.</p>
-                  </div>
-                  <div class="s-12 m-6 l-3 margin-bottom">
-                     <i class="icon-star icon3x"></i>
-                     <h2>Valid code</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna erat volutpat.</p>
-                  </div>
-                  <div class="s-12 m-6 l-3 margin-bottom">
-                     <i class="icon-heart icon3x"></i>
-                     <h2>Totally free</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat nonummy.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- ABOUT US -->
-         <div id="about-us">
-            <div class="s-12 m-12 l-6 media-container">
-               <img src="img/about.jpg" alt="">
-            </div>
-            <article class="s-12 m-12 l-6">
-               <h2>We are<br> Web Design<br> Heroes</h2>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
-                 dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                 lobortis nisl ut aliquip ex ea commodo consequat.
-               </p>
-               <div class="about-us-icons">
-                  <i class="icon-paperplane_ico"></i> <i class="icon-trophy"></i> <i class="icon-clock"></i>
-               </div>
-            </article>
-         </div>
-         <!-- OUR WORK -->
-         <div id="our-work">
-            <div class="line">
-               <h2 class="section-title">Our Work</h2>
-               <div class="tabs">
-                  <div class="tab-item tab-active">
-                    <a class="tab-label active-btn">Web Design</a>
-                    <div class="tab-content">
-                      <div class="margin">
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por1.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por4.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por6.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por3.jpg" alt=""></a></div>
-                      </div>
-                    </div>  
-                  </div>
-                  <div class="tab-item">
-                    <a class="tab-label">Development</a>        
-                    <div class="tab-content">
-                      <div class="margin">
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por7.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por5.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por1.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por2.jpg" alt=""></a></div>
-                      </div>
-                    </div>  
-                  </div>
-                  <div class="tab-item">
-                    <a class="tab-label">Social Campaigns</a>
-                    <div class="tab-content">
-                      <div class="margin">
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por4.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por6.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por3.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por5.jpg" alt=""></a></div>
-                      </div>
-                    </div>  
-                  </div>
-                  <div class="tab-item">
-                    <a class="tab-label">Photography</a>
-                    <div class="tab-content">
-                      <div class="margin">
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por7.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por2.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por5.jpg" alt=""></a></div>
-                        <div class="s-12 m-6 l-3"><a class="our-work-container lightbox margin-bottom"><div class="our-work-text"><h4>Lorem Ipsum Dolor</h4><p>Laoreet dolore magna aliquam erat volutpat.</p></div><img src="img/por6.jpg" alt=""></a></div>
-                      </div>
-                    </div>  
-                  </div>
-               </div>
-            </div>
-         </div>         
-         <!-- SERVICES -->
-         <div id="services">
-            <div class="line">
-               <h2 class="section-title">What we do</h2>
-               <div class="margin">
-                  <div class="s-12 m-6 l-4 margin-bottom">
-                     <i class="icon-vector"></i>
-                     <div class="service-text">
-                        <h3>We create</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                     </div>
-                  </div>
-                  <div class="s-12 m-6 l-4 margin-bottom">
-                     <i class="icon-eye"></i>
-                     <div class="service-text">
-                        <h3>We look to the future</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                     </div>
-                  </div>
-                  <div class="s-12 m-12 l-4 margin-bottom">
-                     <i class="icon-random"></i>
-                     <div class="service-text">
-                        <h3>We find a solution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- LATEST NEWS -->
-         <div id="latest-news">
-            <div class="line">
-              <h2 class="section-title">Latest News</h2> 
-              <div class="margin">
-                <div class="s-12 m-6 l-6">
-                  <div class="s-12 l-2">
-                    <div class="news-date">
-                      <p class="day">28</p><p class="month">AUGUST</p><p class="year">2015</p>
-                    </div>
-                  </div>
-                  <div class="s-12 l-10">
-                    <div class="news-text">
-                      <h4>First latest News</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                    </div>
-                  </div>   
-                </div> 
-                <div class="s-12 m-6 l-6">
-                  <div class="s-12 l-2">
-                    <div class="news-date">
-                      <p class="day">12</p><p class="month">JULY</p><p class="year">2015</p>
-                    </div>
-                  </div>
-                  <div class="s-12 l-10">
-                    <div class="news-text">
-                      <h4>Second latest News</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                    </div>
-                  </div>   
-                </div>  
+                </div>
+                <h2>Residence Permit Process</h2>
+                <p>
+                  Trust us to streamline the process, guiding you every step of
+                  the way for a hassle-free experience in securing your
+                  residency.
+                </p>
               </div>
             </div>
-         </div> 
-         <!-- CONTACT -->
-         <div id="contact">
+          </div>
+          <div class="items">
+            <img src="img/1920.jpg" alt="" />
             <div class="line">
-               <h2 class="section-title">Contact Us</h2>
-               <div class="margin">
-                  <div class="s-12 m-12 l-3 hide-m hide-s margin-bottom right-align">
-                    <img src="img/contact.jpg" alt="">
+              <div class="text hide-s">
+                <div class="line">
+                  <div class="prev-arrow hide-s hide-m">
+                    <i class="icon-chevron_left"></i>
                   </div>
-                  <div class="s-12 m-12 l-4 margin-bottom right-align">
-                     <h3>Vision Design - graphic zoo</h3>
-                     <address>
-                        <p><strong>Adress:</strong> Gallayova 19, 841 02 Bratislava</p>
-                        <p><strong>Country:</strong> Slovakia - Europe</p>
-                        <p><strong>E-mail:</strong> info@visiondesign.sk</p>
-                     </address>
-                     <br />
-                     <h3>Social</h3>
-                     <p><i class="icon-facebook icon"></i> <a href="https://www.facebook.com/pages/Vision-Design-graphic-ZOO/154664684553091">Vision Design - graphic zoo</a></p>
-                     <p><i class="icon-facebook icon"></i> <a href="https://www.facebook.com/myresponsee">Responsee</a></p>
-                     <p class="margin-bottom"><i class="icon-twitter icon"></i> <a href="https://twitter.com/MyResponsee">Responsee</a></p>
+                  <div class="next-arrow hide-s hide-m">
+                    <i class="icon-chevron_right"></i>
                   </div>
-                  <div class="s-12 m-12 l-5">
-                    <h3>Example contact form (do not use)</h3>
-                    <form class="customform" action="">
-                      <div class="s-12"><input name="" placeholder="Your e-mail" title="Your e-mail" type="text" /></div>
-                      <div class="s-12"><input name="" placeholder="Your name" title="Your name" type="text" /></div>
-                      <div class="s-12"><textarea placeholder="Your message" name="" rows="5"></textarea></div>
-                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit">Submit Button</button></div>
-                    </form>
-                  </div>                
-               </div>
+                </div>
+                <h2>Study in Turkiye and Abroad Service</h2>
+                <p>We will be with you in your journey.</p>
+              </div>
             </div>
-         </div>
-         <!-- MAP -->
-         <div id="map-block">  	  
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1247814.3661917313!2d16.569872019090596!3d48.23131953825178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8cbf758ecb9f%3A0xddeb1d26bce5eccf!2sGallayova+2150%2F19%2C+841+02+D%C3%BAbravka!5e0!3m2!1ssk!2ssk!4v1440344568394" width="100%" height="450" frameborder="0" style="border:0"></iframe>
-         </div>
-      </section>
-      <!-- FOOTER -->
-      <footer>
-         <div class="line">
-            <div class="s-12 l-6">
-               <p>Copyright 2019, Vision Design - graphic zoo</p>
-               <p>All images have been purchased from Bigstock. Do not use the images in your website.</p>
+          </div>
+          <div class="items">
+            <img src="img/19201.jpg" alt="" />
+            <div class="line">
+              <div class="text hide-s">
+                <div class="line">
+                  <div class="prev-arrow hide-s hide-m">
+                    <i class="icon-chevron_left"></i>
+                  </div>
+                  <div class="next-arrow hide-s hide-m">
+                    <i class="icon-chevron_right"></i>
+                  </div>
+                </div>
+                <h2>Supplying and Consulting</h2>
+                <p>
+                  Discover the guide that will guide you in sourcing products to
+                  meet the demands of various industries. We pride ourselves on
+                  delivering excellence in providing you with every product,
+                  from the latest technology to basic raw materials.
+                </p>
+              </div>
             </div>
-            <div class="s-12 l-6">
-               <a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
+          </div>
+        </div>
+      </div>
+      <!-- FIRST BLOCK -->
+      <div id="first-block">
+        <div class="line">
+          <h1>A dynamic consultancy and Supplying partner</h1>
+          <p>
+            Empowering Success Through Expert Consultancy and Seamless Supply
+            Solutions.
+          </p>
+          <div class="s-12 m-4 l-2 center">
+            <a class="white-btn" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <!-- FEATURES -->
+      <div id="features">
+        <div class="line">
+          <div class="margin">
+            <div class="s-12 m-6 l-3 margin-bottom">
+              <i class="icon-tablet icon3x"></i>
+              <h2>Diverse Product Range</h2>
+              <p>
+                Discover a comprehensive range of top-tier products and materials tailored to meet the demands of various industries. From cutting-edge technology to essential raw materials, we pride ourselves on delivering excellence in every shipment.
+              </p>
             </div>
-         </div>
-      </footer>
-      <script type="text/javascript" src="js/responsee.js"></script>
-      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
-      <script type="text/javascript">
-         jQuery(document).ready(function($) {
-            var theme_slider = $("#owl-demo");
-            var owl = $('#owl-demo');
-            owl.owlCarousel({
-              nav: false,
-              dots: true,
-              items: 1,
-              loop: true,
-              autoplay: true,
-              autoplayTimeout: 6000
-            });
-            var owl = $('#owl-demo2');
-            owl.owlCarousel({
-              nav: true,
-              dots: false,
-              items: 1,
-              loop: true,
-              navText: ["&#xf007","&#xf006"],
-              autoplay: true,
-              autoplayTimeout: 4000
-            });
+            <div class="s-12 m-6 l-3 margin-bottom">
+              <i class="icon-isight icon3x"></i>
+              <h2>Robust Supply Chain</h2>
+              <p>
+                Our streamlined and efficient supply chain ensures timely deliveries, minimizing disruptions to your operations. Trust us to be your dependable source for high-quality products, every time.
+              </p>
+            </div>
+            <div class="s-12 m-6 l-3 margin-bottom">
+              <i class="icon-star icon3x"></i>
+              <h2>Client-Centric Approach</h2>
+              <p>
+                At Fatih consultancy , our clients are at the heart of everything we do. We prioritize understanding your unique needs and challenges, forging partnerships that go beyond transactions
+              </p>
+            </div>
+            <div class="s-12 m-6 l-3 margin-bottom">
+              <i class="icon-heart icon3x"></i>
+              <h2>Innovative Solutions</h2>
+              <p>
+                Stay at the forefront of industry trends with our innovative approaches. We leverage cutting-edge technology and forward-thinking strategies to keep your business ahead in a dynamic market.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT US -->
+      <div id="about-us">
+        <div class="s-12 m-12 l-6 media-container">
+          <img src="img/consultancy.jpg" alt="" />
+        </div>
+        <article class="s-12 m-12 l-6">
+          <h2 >
+            Welcome to  <br />Fatih Consultancy
+          </h2>
+          <p>
+            At Fatih Consultancy, we bring a seamless blend of supplying expertise and strategic consulting to elevate your business to new heights. With a commitment to excellence, innovation, and client satisfaction, we stand as a reliable partner for your diverse needs.
+
+
+          </p>
+          <div class="about-us-icons">
+            <i class="icon-paperplane_ico"></i> <i class="icon-trophy"></i>
+            <i class="icon-clock"></i>
+          </div>
+        </article>
+      </div>
+      <!-- OUR WORK -->
+      <div id="our-work">
+        <div class="line">
+          <h2 class="section-title">Our Services</h2>
+          <div class="tabs">
+              <div class="tab-content">
+                <div class="margin">
+                  <div class="s-12 m-6 l-3">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4> Residence Permit</h4>
+                        <p>Trust us to streamline the process, guiding you every step of
+                          the way for a hassle-free experience in securing your
+                          residency.
+                        </p>
+                      </div>
+                      <img src="img/galata.jpg" alt=""
+                    />
+                  
+                  <div class="serNames">
+                    <p class="namesOfservices" >Residence Permit</p>
+
+                  </div>
+                  </a>
+
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4>Study in Turkiye and Abroad</h4>
+                        <p>We will be with you in your journey.</p>
+                      </div>
+                      <img src="img/unse.jpg" alt=""
+                    />
+                    <div class="serNames">
+                      <p class="namesOfservices">Study in Turkiye and Abroad</p>
+
+                    </div>
+                  </a>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4>Supplying and Consulting</h4>
+                        <p>Discover the guide that will guide you in sourcing products to meet the demands of various industries. We pride ourselves on delivering excellence in providing you with every product, from the latest technology to basic raw materials.</p>
+                      </div>
+                      <img src="img/supS.jpg" alt=""
+                    />
+                    <div class="serNames">
+                      <p class="namesOfservices">Supplying and Consulting</p>
+
+                    </div>
+                  </a>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4>Business  and Trade</h4>
+                        <P>With a focus on efficiency and reliability, we empower businesses to thrive in the global marketplace. Elevate your enterprise with us.</P>
+                      </div>
+                      <img src="img/Trade.jpg" alt=""
+                    />
+                    <div class="serNames">
+                      <p class="namesOfservices">Business and Trade</p>
+
+                    </div>
+                  </a>
+                  </div>
+                
+                </div>
+              
+              </div>
+             
+           
+              <div class="tab-content">
+                <div class="margin">
+                  <div class="s-12 m-6 l-3 services-name">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4> Court and Lawyer service</h4>
+                        <p>Whether you seek representation, advice, or assistance in resolving disputes, our dedicated professionals are committed to ensuring your rights are protected and justice is served
+                        </p>
+                      </div>
+                      <img src="img/cort.jpg" alt=""
+                    />
+                    <div class="serNames" >
+                      <p class="namesOfservices" >Court and Lawyer service</p>
+      </div></a>
+                  </div>
+                  <div class="s-12 m-6 l-3 services-name">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4>Sworn-Notarized Translation</h4>
+                        <p>Your assurance of quality in every word.</p>
+                      </div>
+                      <img src="img/Translation1.jpg" alt=""
+                    />
+                          
+<div class="serNames" >
+  <p class="namesOfservices">Sworn-Notarized Translation</p></div></a>
+                  </div>
+                  <div class="s-12 m-6 l-3 services-name">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4>Insurance Service</h4>
+                        <p>Reliable Protection: Our Insurance Service offers comprehensive coverage, ensuring peace of mind and financial security.</p>
+                      </div>
+                      <img src="img/insurance.jpg" alt=""
+                    />
+                    <div class="serNames" >      
+                      <p class="namesOfservices">Insurance Service</p>
+                    </div></a>
+                   
+                  </div>
+                  <div class="s-12 m-6 l-3 services-name">
+                    <a class="our-work-container lightbox margin-bottom"
+                      >
+                      <div class="our-work-text">
+                        <h4>Hospital</h4>
+                        <p>Comprehensive Care: Our Hospital Services prioritize your well-being. With experienced medical professionals, state-of-the-art facilities, and compassionate support, we provide personalized and efficient healthcare solutions. Your health, our commitment</p>
+                      </div>
+                      <img src="img/hastane.jpg" alt=""
+                    />
+                    <div class="serNames" >
+                      <p class="namesOfservices">Hospital</p>
+
+                     
+                    </div>
+                  </a>
+                    
+                  </div>
+                  
+                </div>
+
+             
+              </div>
+              <div class="tab-content">
+                <div class="margin">
+                  <div class="s-12 m-6 l-3 services-name">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4> Luxury Van</h4>
+<p>Sophisticated Travel: Our Luxury Van epitomizes elegance and comfort
+                      </p>
+                      </div>
+                      <img src="img/vans.jpg" alt=""
+                    />
+                  <div class="serNames">
+
+                    <p class="namesOfservices" >Luxury Van</p>
+                  </div>
+                  </a>
+
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                    <a class="our-work-container lightbox margin-bottom"
+                      ><div class="our-work-text">
+                        <h4>Real Estate</h4>
+                        <p>Your assurance of quality in every word.</p>
+                      </div>
+                      <img src="img/RState.jpg" alt=""
+                    />
+                    <div class="serNames">
+                      <p class="namesOfservices">Real Estate</p>
+      
+                     </div>
+                  </a>
+                  </div>
+                  
+                
+                </div>
+             
+              </div>
+             
+            </div>
+           
         
-            // Custom Navigation Events
-            $(".next-arrow").click(function() {
-                theme_slider.trigger('next.owl');
-            })
-            $(".prev-arrow").click(function() {
-                theme_slider.trigger('prev.owl');
-            })     
-        }); 
-      </script>
-   </body>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICES -->
+      <div id="services">
+        <div class="line">
+          <h2 class="section-title">What we do</h2>
+          <div class="margin">
+            <div class="s-12 m-6 l-4 margin-bottom">
+              <i class="icon-check"></i>
+              <div class="service-text">
+                <h3>Stringent Quality Standards</h3>
+                <p>
+                  Rest easy knowing that our products and consulting services
+                  adhere to the highest quality standards. We prioritize quality
+                  assurance to ensure your satisfaction and peace of mind.
+                </p>
+              </div>
+            </div>
+            <div class="s-12 m-6 l-4 margin-bottom">
+              <i class="icon-sli-puzzle"></i>
+              <div class="service-text">
+                <h3>Specialized Solutions</h3>
+                <p>
+                  Whether you require unique specifications or specialized
+                  products, we have the expertise to cater to your distinct
+                  needs. Our commitment to customization sets us apart in the
+                  world of supplying.
+                </p>
+              </div>
+            </div>
+            <div class="s-12 m-12 l-4 margin-bottom">
+              <i class="icon-random"></i>
+              <div class="service-text">
+                <h3>Expert Guidance</h3>
+                <p>
+                  Rely on the wisdom of our seasoned consultants who bring years
+                  of industry experience. We provide insightful strategies to
+                  navigate challenges and capitalize on opportunities, ensuring
+                  your business stays ahead of the curve.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      <!-- CONTACT -->
+      <div id="contact">
+        <div class="line">
+          <div class="margin">
+            <section class="home">
+              <div class="description">
+                <h1 class="title">
+                  <span class="gradient-text">Grow Professionally  </span> <span class="whitecolor">with the Best
+                  </h1></span> 
+                <p class="paragraph">
+                  Reach out to us for inquiries, collaborations, or to discuss how we can tailor our services to meet your specific needs.
+                </p>
+                  <address>
+                    <p style="color:  #92c500;"><strong>Phone:</strong> +90 553 856 90 53</p>
+                    <a href="mailto:info@fatihconsultancy.com"><strong>E-mail:</strong>info@fatihconsultancy.com</a>
+                </address>
+              </div>
+        
+              <div class="users-color-container">
+                <span class="item" style="--i: 1"></span>
+                <img
+                  class="item"
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/274f29ce-0d3f-4ac2-a2aa-f9b7bd188b2a"
+                  style="--i: 2"
+                  alt="" />
+                <span class="item" style="--i: 3"></span>
+                <img
+                  class="item"
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b8a14493-3d9f-4b9b-b93a-56d0bc7243e9"
+                  style="--i: 4"
+                  alt="" />
+        
+                <img
+                  class="item"
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/03e51e1e-9750-45a5-b75e-a1e341d4562a"
+                  style="--i: 10"
+                  alt="" />
+                <span class="item" style="--i: 11"></span>
+                <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5eb50f89-3e5a-480e-860c-8d40d3ba9ffe" style="--i: 12" alt="" />
+                <span class="item" style="--i: 5"></span>
+        
+                <span class="item" style="--i: 9"></span>
+                <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/86c71a79-2efe-4567-8665-b1e5a1fd9735" style="--i: 8" alt="" />
+                <span class="item" style="--i: 7"></span>
+                <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/97ef9643-5202-41aa-80f0-ceeabccdd099" style="--i: 6" alt="" />
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!-- MAP -->
+      <div id="map-block">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.604577711969!2d28.908508675429626!3d41.0557755713438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab08695df5b65%3A0x315d8b19716407b3!2zRGFiYWtsYXIgxLDFnyBNZXJrZXo!5e0!3m2!1str!2str!4v1701535358771!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div style="padding:12px; text-align: center;">
+        <div >
+          <p>Copyright&copy; 2023-2024 Fatih Consultancy</p>
+         
+        </div>
+        
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        var theme_slider = $("#owl-demo");
+        var owl = $("#owl-demo");
+        owl.owlCarousel({
+          nav: false,
+          dots: true,
+          items: 1,
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 6000,
+        });
+        var owl = $("#owl-demo2");
+        owl.owlCarousel({
+          nav: true,
+          dots: false,
+          items: 1,
+          loop: true,
+          navText: ["&#xf007", "&#xf006"],
+          autoplay: true,
+          autoplayTimeout: 4000,
+        });
+
+        // Custom Navigation Events
+        $(".next-arrow").click(function () {
+          theme_slider.trigger("next.owl");
+        });
+        $(".prev-arrow").click(function () {
+          theme_slider.trigger("prev.owl");
+        });
+      });
+    </script>
+  </body>
 </html>
+
+<!-- <div class="s-12 m-12 l-4 margin-bottom right-align">
+              <h3>Vision Design - graphic zoo</h3>
+              <address>
+                <p><strong>Adress:</strong> Gallayova 19, 841 02 Bratislava</p>
+                <p><strong>Country:</strong> Slovakia - Europe</p>
+                <p><strong>E-mail:</strong> info@visiondesign.sk</p>
+              </address>
+              <br />
+              <h3>Social</h3>
+              <p>
+                <i class="icon-facebook icon"></i>
+                <a
+                  href="https://www.facebook.com/pages/Vision-Design-graphic-ZOO/154664684553091"
+                  >Vision Design - graphic zoo</a
+                >
+              </p>
+              <p>
+                <i class="icon-facebook icon"></i>
+                <a href="https://www.facebook.com/myresponsee">Responsee</a>
+              </p>
+              <p class="margin-bottom">
+                <i class="icon-twitter icon"></i>
+                <a href="https://twitter.com/MyResponsee">Responsee</a>
+              </p>
+            </div>-->
