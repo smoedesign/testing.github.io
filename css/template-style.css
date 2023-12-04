@@ -349,16 +349,18 @@ h2.section-title {
   height: 100%;
   position: relative;
 }
+.tab-content{
+  margin-bottom: 2em;
+
+}
 .our-work-text {
-  background: #00283a none repeat scroll 0 0;
-  display: block;
+  background: rgba(35, 36, 57, 1) none repeat scroll 0 0;
   left: 0;
   opacity: 0;
   padding: 1.25em;
   position: absolute;
   right: 0;
-  bottom: 63px;
-  text-align: center;
+  text-align: left;
   transition: opacity 0.2s linear 0s;
   -o-transition: opacityd 0.2s linear 0s;
   -ms-transition: opacity 0.2s linear 0s;
@@ -366,8 +368,11 @@ h2.section-title {
   -webkit-transition: opacity 0.2s linear 0s;
   width: 100%;
 }
+
+
 .our-work-container:hover > .our-work-text {
   opacity: 1;
+  bottom: 5em;
 }
 .our-work-text h4 {
   color: #fff;
@@ -382,10 +387,8 @@ h2.section-title {
 .tab-nav {
   display: table;
 }
-.services-name {
-  display: flex;
-  flex-direction: column;
-}
+
+
 .serNames {
   margin-top: 1em;
 }
@@ -397,7 +400,7 @@ h2.section-title {
     rgba(35, 36, 57, 1) 60%
   );
   color: #fff;
-  display: block;
+
   font-size: 1em;
   margin-right: 0 5px;
   padding: 0.625em 1.25em;
@@ -444,6 +447,9 @@ a.tab-label.active-btn {
 }
 #services h2.section-title:after {
   background: #fff none repeat scroll 0 0;
+}
+#contact h2.section-title:after {
+  background: #dddcdc none repeat scroll 0 0;
 }
 #services i {
   background: none repeat scroll 0 0 #fff;
@@ -543,6 +549,7 @@ footer a:hover {
   font-size: 0.8em;
 }
 @media screen and (max-width: 768px) {
+ 
   article h2 {
     font-size: 3em;
     font-weight: 900;
@@ -574,6 +581,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  #contact{
+    padding: 3em 2em;
+  }
   .headerTitle {
     font-size: 2em;
     font-weight: 900;
