@@ -436,6 +436,10 @@ a.tab-label.active-btn {
   background: #92c500;
   color: #fff;
 }
+.ozal{
+  object-fit: fill;
+  height: 140vh;
+}
 #services {
   background: #6f9600 none repeat scroll 0 0;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
