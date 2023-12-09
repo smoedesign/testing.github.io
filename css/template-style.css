@@ -349,9 +349,8 @@ h2.section-title {
   height: 100%;
   position: relative;
 }
-.tab-content{
+.tab-content {
   margin-bottom: 2em;
-
 }
 .our-work-text {
   background: rgba(35, 36, 57, 1) none repeat scroll 0 0;
@@ -368,7 +367,6 @@ h2.section-title {
   -webkit-transition: opacity 0.2s linear 0s;
   width: 100%;
 }
-
 
 .our-work-container:hover > .our-work-text {
   opacity: 1;
@@ -388,7 +386,6 @@ h2.section-title {
   display: table;
 }
 
-
 .serNames {
   margin-top: 1em;
 }
@@ -404,7 +401,7 @@ h2.section-title {
   font-size: 1em;
   margin-right: 0 5px;
   padding: 0.625em 1.25em;
-  height:4em;
+  height: 4em;
 
   transition: all 0.2s linear 0s;
   -o-transition: all 0.2s linear 0s;
@@ -436,7 +433,7 @@ a.tab-label.active-btn {
   background: #92c500;
   color: #fff;
 }
-.ozal{
+.ozal {
   object-fit: fill;
   height: 140vh;
 }
@@ -553,7 +550,6 @@ footer a:hover {
   font-size: 0.8em;
 }
 @media screen and (max-width: 768px) {
- 
   article h2 {
     font-size: 3em;
     font-weight: 900;
@@ -585,7 +581,7 @@ footer a:hover {
   }
 }
 @media screen and (max-width: 480px) {
-  #contact{
+  #contact {
     padding: 3em 2em;
   }
   .headerTitle {
